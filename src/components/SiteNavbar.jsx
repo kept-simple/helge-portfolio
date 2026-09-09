@@ -24,6 +24,9 @@ export default function SiteNavbar() {
             <Nav.Link as={NavLink} to="/technologies">
               {t('nav.technologies')}
             </Nav.Link>
+            <Nav.Link as={NavLink} to="/contact">
+              {t('nav.contact')}
+            </Nav.Link>
             <Nav.Link as={NavLink} to="/impressum">
               {t('nav.impressum')}
             </Nav.Link>

@@ -5,6 +5,7 @@
   "nav": {
     "home": "Inicio",
     "technologies": "Tecnologías",
+    "contact": "Contacto",
     "impressum": "Aviso legal"
   },
   "language": {
@@ -58,6 +59,15 @@
       "monitoringAlerting": "Monitorización y alertas",
       "adHocAnalytics": "Análisis ad hoc"
     }
+  },
+  "contact": {
+    "eyebrow": "Colaboración y consultas",
+    "title": "Contacto",
+    "subtitle": "Cómo contactar conmigo",
+    "intro": "¿Tienes un proyecto, una pregunta sobre una plataforma de datos o quieres hablar de una posible colaboración? El correo electrónico es la vía más rápida para localizarme. Por teléfono suelo estar disponible en el horario comercial habitual.",
+    "directHeading": "Contacto directo",
+    "addressHeading": "Dirección postal",
+    "note": "Por favor, no envíes datos personales sensibles por correo electrónico si no es necesario para tu consulta. Encontrarás más información sobre el tratamiento de tus datos en la política de privacidad."
   },
   "impressum": {
     "pageTitle": "Aviso legal",

@@ -5,6 +5,7 @@
   "nav": {
     "home": "Home",
     "technologies": "Technologies",
+    "contact": "Contact",
     "impressum": "Legal Notice"
   },
   "language": {
@@ -58,6 +59,15 @@
       "monitoringAlerting": "Monitoring & alerting",
       "adHocAnalytics": "Ad-hoc analytics"
     }
+  },
+  "contact": {
+    "eyebrow": "Working together & enquiries",
+    "title": "Contact",
+    "subtitle": "How to reach me",
+    "intro": "Got a project, a question about a data platform, or want to talk about working together? Email is the fastest way to reach me. By phone I am usually available during normal business hours.",
+    "directHeading": "Direct contact",
+    "addressHeading": "Postal address",
+    "note": "Please do not send sensitive personal data by email unless it is necessary for your enquiry. For more information on how your data is processed, see the privacy policy."
   },
   "impressum": {
     "pageTitle": "Legal Notice",

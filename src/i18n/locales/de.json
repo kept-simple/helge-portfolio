@@ -5,6 +5,7 @@
   "nav": {
     "home": "Startseite",
     "technologies": "Technologien",
+    "contact": "Kontakt",
     "impressum": "Impressum"
   },
   "language": {
@@ -58,6 +59,15 @@
       "monitoringAlerting": "Monitoring & Alerting",
       "adHocAnalytics": "Ad-hoc-Analysen"
     }
+  },
+  "contact": {
+    "eyebrow": "Zusammenarbeit & Anfragen",
+    "title": "Kontakt",
+    "subtitle": "So erreichen Sie mich",
+    "intro": "Sie haben ein Projekt, eine Frage zu einer Datenplattform oder möchten eine Zusammenarbeit besprechen? Schreiben Sie mir gern eine E-Mail — das ist der schnellste Weg zu mir. Telefonisch bin ich in der Regel während der üblichen Geschäftszeiten erreichbar.",
+    "directHeading": "Direkter Kontakt",
+    "addressHeading": "Postadresse",
+    "note": "Bitte senden Sie keine sensiblen personenbezogenen Daten per E-Mail, sofern dies für Ihre Anfrage nicht erforderlich ist. Weitere Informationen zur Verarbeitung Ihrer Daten finden Sie in der Datenschutzerklärung."
   },
   "impressum": {
     "pageTitle": "Impressum",
