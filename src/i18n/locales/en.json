@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "Helge Dzierzon — Senior Data Engineer"
+  },
+  "nav": {
+    "home": "Home",
+    "technologies": "Technologies",
+    "impressum": "Legal Notice"
+  },
+  "language": {
+    "label": "Choose language",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español"
+  },
+  "footer": {
+    "impressum": "Impressum / Legal Notice",
+    "privacy": "Privacy Policy"
+  },
+  "common": {
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "country": {
+      "de": "Germany",
+      "ie": "Ireland"
+    }
+  },
+  "home": {
+    "eyebrow": "Data Engineering & Analytics Platforms",
+    "role": "Senior Data Engineer",
+    "intro": "Placeholder copy — replace with your own words. I design and operate data platforms that turn messy source systems into dependable, well-modelled datasets: batch and streaming pipelines, orchestration, data quality checks, and the reporting layer that business teams actually use.",
+    "daily": "Day to day that means Python and SQL, dbt-style transformation layers, Dagster and Airflow orchestration, warehouses such as BigQuery and Snowflake, and the CI/CD and observability glue that keeps it all boring in the best possible way.",
+    "extra": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
+  },
+  "technologies": {
+    "eyebrow": "What I bring to your projects",
+    "title": "Technologies",
+    "subtitle": "Tools I use for customer work",
+    "intro": "Placeholder copy — replace with your own words. The stack below is what I reach for when building and operating data platforms: ingestion, transformation, orchestration, and the reporting layer on top.",
+    "note": "Note: this list is a placeholder and should be adjusted to the technologies actually offered.",
+    "groups": {
+      "languages": "Languages",
+      "transformation": "Transformation & Modelling",
+      "orchestration": "Orchestration",
+      "warehouses": "Warehouses & Storage",
+      "streaming": "Streaming & Integration",
+      "platform": "Platform & Delivery",
+      "quality": "Quality & Observability",
+      "reporting": "Reporting"
+    },
+    "items": {
+      "dimensionalModelling": "Dimensional modelling",
+      "cronSchedules": "Cron / GitLab schedules",
+      "objectStorage": "Object storage (S3 / GCS)",
+      "restGraphqlApis": "REST & GraphQL APIs",
+      "changeDataCapture": "Change data capture",
+      "dataQualityChecks": "Data quality checks",
+      "monitoringAlerting": "Monitoring & alerting",
+      "adHocAnalytics": "Ad-hoc analytics"
+    }
+  },
+  "impressum": {
+    "pageTitle": "Legal Notice",
+    "pageSubtitle": "Information pursuant to Section 5 of the German Digital Services Act (DDG)",
+    "heading": "Legal Notice (English)",
+    "note": "This English version is provided for convenience; the German version above is authoritative.",
+    "contactHeading": "Contact",
+    "vatHeading": "VAT Identification Number",
+    "vatText": "VAT identification number (Umsatzsteuer-Identifikationsnummer) pursuant to Section 27a of the German VAT Act:",
+    "disputeHeading": "Consumer Dispute Resolution",
+    "disputeText": "I am neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+    "contentLiabilityHeading": "Liability for Content",
+    "contentLiabilityText": "The contents of this website have been prepared with due care. However, no guarantee is given as to the accuracy, completeness or currentness of the information provided.",
+    "linksLiabilityHeading": "Liability for External Links",
+    "linksLiabilityText": "This website may contain links to external third-party websites. I have no control over the content of these external websites and therefore cannot assume responsibility for such content. The respective provider or operator of the linked website is responsible for its content.",
+    "copyrightHeading": "Copyright",
+    "copyrightText": "Unless otherwise indicated, the content and works created by me on this website are subject to German copyright law. Reproduction, editing, distribution or any form of use beyond the limits permitted by copyright law requires my prior written consent."
+  },
+  "privacy": {
+    "pageTitle": "Privacy Policy",
+    "pageSubtitle": "Information on the processing of personal data pursuant to the GDPR",
+    "heading": "Privacy Policy (English)",
+    "note": "This English version is provided for convenience; the German version above is authoritative.",
+    "lastUpdated": "Last updated: {{date}}",
+    "s1": {
+      "heading": "1. Data Protection at a Glance",
+      "p1": "The protection of your personal data is important to me. This Privacy Policy explains what personal data is collected when you visit this website and how such data is processed.",
+      "p2": "Personal data means any information relating to an identified or identifiable natural person."
+    },
+    "s2": {
+      "heading": "2. Controller",
+      "p1": "The controller responsible for data processing on this website within the meaning of the General Data Protection Regulation (GDPR) is:"
+    },
+    "s3": {
+      "heading": "3. Hosting",
+      "p1": "This website is hosted by:",
+      "p2": "When you visit this website, the hosting provider may process technical information necessary to deliver the website and ensure its secure and reliable operation. This may include, in particular:",
+      "items": [
+        "IP address or anonymised IP address",
+        "date and time of access",
+        "requested page or file",
+        "browser type and version",
+        "operating system",
+        "referrer information",
+        "information concerning the requesting provider",
+        "technical information concerning the request and response"
+      ],
+      "p3": "The processing of this information is necessary for the secure, reliable and efficient operation of the website.",
+      "p4": "The legal basis for this processing is Art. 6(1)(f) GDPR. My legitimate interest is the secure and technically reliable provision of this website.",
+      "p5": "STRATO acts as a service provider in connection with the hosting of this website.",
+      "p6": "Further information about STRATO's processing of personal data can be found in STRATO's privacy information."
+    },
+    "s4": {
+      "heading": "4. Contact Form",
+      "p1": "This website provides a contact form through which you can contact me.",
+      "p2": "When you use the contact form, the information you enter into the form is processed for the purpose of responding to your enquiry. Depending on the fields provided, this may include:",
+      "items": [
+        "your name",
+        "your email address",
+        "your message",
+        "any other information you voluntarily provide in your message"
+      ],
+      "p3": "The data is used solely to process and respond to your enquiry unless another use is permitted or required by law.",
+      "p4": "If your enquiry concerns the initiation or performance of a contractual relationship, the legal basis for processing is Art. 6(1)(b) GDPR.",
+      "p5": "For other enquiries, the processing is based on my legitimate interest in responding to enquiries addressed to me pursuant to Art. 6(1)(f) GDPR.",
+      "p6": "Your data will be deleted when your enquiry has been conclusively dealt with and there is no legal obligation or other lawful reason to retain the data for a longer period.",
+      "p7": "Please do not submit sensitive personal information through the contact form unless this is necessary for your enquiry."
+    },
+    "s5": {
+      "heading": "5. LinkedIn",
+      "p1": "This website contains a link to my profile on LinkedIn.",
+      "p2": "The link is a standard external hyperlink. No LinkedIn plugin or embedded LinkedIn content is used on this website.",
+      "p3": "Data is therefore not transmitted to LinkedIn merely because a page containing the link is displayed. If you click the LinkedIn link, you will leave this website and be redirected to LinkedIn. LinkedIn may then process personal data in accordance with its own privacy policy.",
+      "p4": "LinkedIn is operated in Europe by:",
+      "p5": "For information about how LinkedIn processes personal data, please refer to LinkedIn's Privacy Policy."
+    },
+    "s6": {
+      "heading": "6. Cookies and Tracking",
+      "p1": "This website does not use analytics, advertising or tracking services.",
+      "p2": "If technically necessary cookies are used by the hosting platform or website software, they are used only to provide functions necessary for the operation of the website.",
+      "p3": "No personal data is used for advertising or cross-site tracking by me."
+    },
+    "s7": {
+      "heading": "7. SSL/TLS Encryption",
+      "p1": "This website uses SSL/TLS encryption to protect the transmission of confidential information, including information submitted through the contact form.",
+      "p2": "You can normally recognise an encrypted connection by the use of \"https://\" in your browser's address bar."
+    },
+    "s8": {
+      "heading": "8. Your Rights under the GDPR",
+      "p1": "Under the GDPR, you have various rights concerning your personal data. Subject to the applicable legal requirements, these include:",
+      "rights": [
+        {
+          "term": "the right of access",
+          "ref": "(Art. 15 GDPR)"
+        },
+        {
+          "term": "the right to rectification",
+          "ref": "(Art. 16 GDPR)"
+        },
+        {
+          "term": "the right to erasure",
+          "ref": "(Art. 17 GDPR)"
+        },
+        {
+          "term": "the right to restriction of processing",
+          "ref": "(Art. 18 GDPR)"
+        },
+        {
+          "term": "the right to data portability",
+          "ref": "(Art. 20 GDPR)"
+        },
+        {
+          "term": "the right to object to processing",
+          "ref": "(Art. 21 GDPR)"
+        }
+      ],
+      "p2": "Where processing is based on consent, you also have the right to withdraw your consent at any time with effect for the future.",
+      "p3": "To exercise your rights, you may contact me using the contact details provided above."
+    },
+    "s9": {
+      "heading": "9. Right to Object to Processing",
+      "p1": "Where personal data is processed on the basis of Art. 6(1)(f) GDPR, you have the right under Art. 21 GDPR to object at any time, on grounds relating to your particular situation, to the processing of your personal data.",
+      "p2": "In the event of an objection, I will no longer process the personal data concerned unless there are compelling legitimate grounds for the processing which override your interests, rights and freedoms, or the processing serves to assert, exercise or defend legal claims."
+    },
+    "s10": {
+      "heading": "10. Right to Lodge a Complaint",
+      "p1": "You have the right under Art. 77 GDPR to lodge a complaint with a data protection supervisory authority if you believe that the processing of your personal data infringes the GDPR.",
+      "p2": "You may in particular contact the supervisory authority responsible for your place of residence, place of work or the place of the alleged infringement."
+    },
+    "s11": {
+      "heading": "11. Changes to this Privacy Policy",
+      "p1": "I may update this Privacy Policy if the functionality of this website changes or if legal or technical developments make an amendment necessary."
+    }
+  }
+}

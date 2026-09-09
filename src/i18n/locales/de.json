@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "Helge Dzierzon — Senior Data Engineer"
+  },
+  "nav": {
+    "home": "Startseite",
+    "technologies": "Technologien",
+    "impressum": "Impressum"
+  },
+  "language": {
+    "label": "Sprache wählen",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español"
+  },
+  "footer": {
+    "impressum": "Impressum",
+    "privacy": "Datenschutzerklärung"
+  },
+  "common": {
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail",
+    "country": {
+      "de": "Deutschland",
+      "ie": "Irland"
+    }
+  },
+  "home": {
+    "eyebrow": "Data Engineering & Analytics-Plattformen",
+    "role": "Senior Data Engineer",
+    "intro": "Platzhaltertext — bitte durch eigene Worte ersetzen. Ich entwerfe und betreibe Datenplattformen, die unübersichtliche Quellsysteme in verlässliche, sauber modellierte Datensätze verwandeln: Batch- und Streaming-Pipelines, Orchestrierung, Datenqualitätsprüfungen und die Reporting-Schicht, die Fachbereiche tatsächlich nutzen.",
+    "daily": "Im Alltag heißt das Python und SQL, Transformationsschichten im dbt-Stil, Orchestrierung mit Dagster und Airflow, Warehouses wie BigQuery und Snowflake sowie der CI/CD- und Observability-Kitt, der das Ganze im besten Sinne langweilig hält.",
+    "extra": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
+  },
+  "technologies": {
+    "eyebrow": "Was ich in Ihre Projekte einbringe",
+    "title": "Technologien",
+    "subtitle": "Werkzeuge, die ich für Kundenprojekte einsetze",
+    "intro": "Platzhaltertext — bitte durch eigene Worte ersetzen. Der folgende Stack ist das, worauf ich beim Aufbau und Betrieb von Datenplattformen zurückgreife: Ingestion, Transformation, Orchestrierung und die Reporting-Schicht darüber.",
+    "note": "Hinweis: Die Liste ist ein Platzhalter und sollte an die tatsächlich angebotenen Technologien angepasst werden.",
+    "groups": {
+      "languages": "Sprachen",
+      "transformation": "Transformation & Modellierung",
+      "orchestration": "Orchestrierung",
+      "warehouses": "Warehouses & Storage",
+      "streaming": "Streaming & Integration",
+      "platform": "Plattform & Delivery",
+      "quality": "Qualität & Observability",
+      "reporting": "Reporting"
+    },
+    "items": {
+      "dimensionalModelling": "Dimensionale Modellierung",
+      "cronSchedules": "Cron / GitLab-Schedules",
+      "objectStorage": "Object Storage (S3 / GCS)",
+      "restGraphqlApis": "REST- & GraphQL-APIs",
+      "changeDataCapture": "Change Data Capture",
+      "dataQualityChecks": "Datenqualitätsprüfungen",
+      "monitoringAlerting": "Monitoring & Alerting",
+      "adHocAnalytics": "Ad-hoc-Analysen"
+    }
+  },
+  "impressum": {
+    "pageTitle": "Impressum",
+    "pageSubtitle": "Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)",
+    "heading": "Impressum (Deutsch)",
+    "note": "Diese Fassung dient lediglich der Bequemlichkeit; maßgeblich ist die deutsche Fassung oben.",
+    "contactHeading": "Kontakt",
+    "vatHeading": "Umsatzsteuer-ID",
+    "vatText": "Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz (UStG):",
+    "disputeHeading": "Verbraucherstreitbeilegung",
+    "disputeText": "Ich bin weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+    "contentLiabilityHeading": "Haftung für Inhalte",
+    "contentLiabilityText": "Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.",
+    "linksLiabilityHeading": "Haftung für externe Links",
+    "linksLiabilityText": "Diese Website kann Links zu externen Websites Dritter enthalten, auf deren Inhalte ich keinen Einfluss habe. Für diese fremden Inhalte kann daher keine Gewähr übernommen werden. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.",
+    "copyrightHeading": "Urheberrecht",
+    "copyrightText": "Die von mir erstellten Inhalte und Werke auf dieser Website unterliegen, soweit nicht anders angegeben, dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung oder sonstige Verwertung außerhalb der gesetzlich zulässigen Grenzen bedarf meiner vorherigen schriftlichen Zustimmung."
+  },
+  "privacy": {
+    "pageTitle": "Datenschutzerklärung",
+    "pageSubtitle": "Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO",
+    "heading": "Datenschutzerklärung (Deutsch)",
+    "note": "Diese Fassung dient lediglich der Bequemlichkeit; maßgeblich ist die deutsche Fassung oben.",
+    "lastUpdated": "Stand: {{date}}",
+    "s1": {
+      "heading": "1. Datenschutz auf einen Blick",
+      "p1": "Der Schutz Ihrer personenbezogenen Daten ist mir wichtig. Diese Datenschutzerklärung informiert Sie darüber, welche personenbezogenen Daten beim Besuch dieser Website erhoben und wie diese verarbeitet werden.",
+      "p2": "Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen."
+    },
+    "s2": {
+      "heading": "2. Verantwortlicher",
+      "p1": "Verantwortlicher für die Datenverarbeitung auf dieser Website im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:"
+    },
+    "s3": {
+      "heading": "3. Hosting",
+      "p1": "Diese Website wird gehostet durch:",
+      "p2": "Beim Besuch dieser Website können durch den Hosting-Anbieter technische Daten verarbeitet werden, die für die Bereitstellung sowie den sicheren und zuverlässigen Betrieb der Website erforderlich sind. Dazu können insbesondere gehören:",
+      "items": [
+        "IP-Adresse bzw. anonymisierte IP-Adresse",
+        "Datum und Uhrzeit des Zugriffs",
+        "aufgerufene Seite oder Datei",
+        "Browsertyp und Browserversion",
+        "verwendetes Betriebssystem",
+        "Referrer-URL",
+        "Informationen über den zugreifenden Provider",
+        "technische Informationen über die Anfrage und deren Beantwortung"
+      ],
+      "p3": "Die Verarbeitung dieser Daten erfolgt zur sicheren, zuverlässigen und technisch einwandfreien Bereitstellung dieser Website.",
+      "p4": "Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse liegt in der sicheren und technisch zuverlässigen Bereitstellung meiner Website.",
+      "p5": "STRATO wird im Rahmen des Hostings als Dienstleister eingesetzt.",
+      "p6": "Weitere Informationen zur Verarbeitung personenbezogener Daten durch STRATO finden Sie in den Datenschutzinformationen von STRATO."
+    },
+    "s4": {
+      "heading": "4. Kontaktformular",
+      "p1": "Auf dieser Website wird ein Kontaktformular angeboten, über das Sie mit mir Kontakt aufnehmen können.",
+      "p2": "Wenn Sie das Kontaktformular verwenden, werden die von Ihnen eingegebenen Daten zur Bearbeitung und Beantwortung Ihrer Anfrage verarbeitet. Dies können insbesondere folgende Daten sein:",
+      "items": [
+        "Ihr Name",
+        "Ihre E-Mail-Adresse",
+        "Ihre Nachricht",
+        "weitere Informationen, die Sie freiwillig in Ihrer Nachricht angeben"
+      ],
+      "p3": "Die übermittelten Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet, sofern keine anderweitige Verarbeitung gesetzlich zulässig oder erforderlich ist.",
+      "p4": "Bezieht sich Ihre Anfrage auf die Anbahnung oder Durchführung eines Vertragsverhältnisses, erfolgt die Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO.",
+      "p5": "Bei sonstigen Anfragen erfolgt die Verarbeitung auf Grundlage meines berechtigten Interesses an der Bearbeitung und Beantwortung der an mich gerichteten Anfrage gemäß Art. 6 Abs. 1 lit. f DSGVO.",
+      "p6": "Die von Ihnen übermittelten Daten werden gelöscht, sobald Ihre Anfrage abschließend bearbeitet wurde und keine gesetzlichen Aufbewahrungspflichten oder sonstigen rechtlichen Gründe für eine weitere Speicherung bestehen.",
+      "p7": "Bitte übermitteln Sie über das Kontaktformular keine sensiblen personenbezogenen Daten, sofern dies für Ihre Anfrage nicht erforderlich ist."
+    },
+    "s5": {
+      "heading": "5. LinkedIn",
+      "p1": "Diese Website enthält einen Link zu meinem Profil auf LinkedIn.",
+      "p2": "Bei dem Link handelt es sich um einen normalen externen Hyperlink. Auf dieser Website werden keine LinkedIn-Plugins und keine eingebetteten Inhalte von LinkedIn verwendet.",
+      "p3": "Daher werden nicht bereits durch den bloßen Aufruf einer Seite mit einem LinkedIn-Link Daten an LinkedIn übertragen. Erst wenn Sie den LinkedIn-Link anklicken, verlassen Sie diese Website und werden zu LinkedIn weitergeleitet. LinkedIn kann anschließend personenbezogene Daten gemäß den eigenen Datenschutzbestimmungen verarbeiten.",
+      "p4": "Für Nutzer innerhalb des Europäischen Wirtschaftsraums ist verantwortlich:",
+      "p5": "Weitere Informationen zur Verarbeitung personenbezogener Daten durch LinkedIn finden Sie in der Datenschutzerklärung von LinkedIn."
+    },
+    "s6": {
+      "heading": "6. Cookies, Analyse und Tracking",
+      "p1": "Diese Website verwendet keine Analyse-, Werbe- oder Tracking-Dienste.",
+      "p2": "Soweit durch den Hosting-Anbieter oder die eingesetzte Website-Software technisch notwendige Cookies verwendet werden, dienen diese ausschließlich der Bereitstellung der für den Betrieb der Website erforderlichen Funktionen.",
+      "p3": "Es erfolgt durch mich keine Nutzung personenbezogener Daten für personalisierte Werbung oder websiteübergreifendes Tracking."
+    },
+    "s7": {
+      "heading": "7. SSL-/TLS-Verschlüsselung",
+      "p1": "Diese Website verwendet aus Sicherheitsgründen eine SSL-/TLS-Verschlüsselung. Dies dient insbesondere dem Schutz vertraulicher Inhalte, beispielsweise der Daten, die Sie über das Kontaktformular übermitteln.",
+      "p2": "Eine verschlüsselte Verbindung erkennen Sie in der Regel daran, dass die Adresszeile Ihres Browsers mit „https://“ beginnt."
+    },
+    "s8": {
+      "heading": "8. Ihre Rechte",
+      "p1": "Sie haben nach Maßgabe der gesetzlichen Voraussetzungen insbesondere folgende Rechte hinsichtlich Ihrer personenbezogenen Daten:",
+      "rights": [
+        {
+          "term": "Recht auf Auskunft",
+          "ref": "gemäß Art. 15 DSGVO"
+        },
+        {
+          "term": "Recht auf Berichtigung",
+          "ref": "gemäß Art. 16 DSGVO"
+        },
+        {
+          "term": "Recht auf Löschung",
+          "ref": "gemäß Art. 17 DSGVO"
+        },
+        {
+          "term": "Recht auf Einschränkung der Verarbeitung",
+          "ref": "gemäß Art. 18 DSGVO"
+        },
+        {
+          "term": "Recht auf Datenübertragbarkeit",
+          "ref": "gemäß Art. 20 DSGVO"
+        },
+        {
+          "term": "Recht auf Widerspruch",
+          "ref": "gemäß Art. 21 DSGVO"
+        }
+      ],
+      "p2": "Soweit eine Verarbeitung auf Ihrer Einwilligung beruht, haben Sie außerdem das Recht, eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen.",
+      "p3": "Zur Ausübung Ihrer Rechte können Sie sich unter den oben angegebenen Kontaktdaten an mich wenden."
+    },
+    "s9": {
+      "heading": "9. Widerspruch gegen die Verarbeitung",
+      "p1": "Soweit personenbezogene Daten auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO verarbeitet werden, haben Sie gemäß Art. 21 DSGVO das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten einzulegen.",
+      "p2": "Im Falle eines Widerspruchs werde ich die betroffenen personenbezogenen Daten nicht mehr verarbeiten, es sei denn, es liegen zwingende schutzwürdige Gründe für die Verarbeitung vor, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen."
+    },
+    "s10": {
+      "heading": "10. Beschwerderecht bei einer Aufsichtsbehörde",
+      "p1": "Sie haben gemäß Art. 77 DSGVO das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt.",
+      "p2": "Sie können sich insbesondere an die Datenschutz-Aufsichtsbehörde Ihres gewöhnlichen Aufenthaltsortes, Ihres Arbeitsplatzes oder des Ortes des mutmaßlichen Verstoßes wenden."
+    },
+    "s11": {
+      "heading": "11. Änderung dieser Datenschutzerklärung",
+      "p1": "Diese Datenschutzerklärung kann angepasst werden, wenn sich die Funktionen dieser Website ändern oder eine Anpassung aufgrund rechtlicher oder technischer Entwicklungen erforderlich wird."
+    }
+  }
+}

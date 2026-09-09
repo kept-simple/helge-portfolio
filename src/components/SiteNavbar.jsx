@@ -1,0 +1,36 @@
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import { useTranslation } from 'react-i18next'
+import { NavLink } from 'react-router-dom'
+
+import LanguageSwitcher from './LanguageSwitcher.jsx'
+
+export default function SiteNavbar() {
+  const { t } = useTranslation()
+
+  return (
+    <Navbar expand="sm" variant="dark" className="site-navbar" sticky="top">
+      <Container>
+        <Navbar.Brand as={NavLink} to="/" className="fw-semibold">
+          Helge Dzierzon
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="site-nav" />
+        <Navbar.Collapse id="site-nav">
+          <Nav className="ms-auto">
+            <Nav.Link as={NavLink} to="/" end>
+              {t('nav.home')}
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/technologies">
+              {t('nav.technologies')}
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/impressum">
+              {t('nav.impressum')}
+            </Nav.Link>
+            <LanguageSwitcher />
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  )
+}

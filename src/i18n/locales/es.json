@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "Helge Dzierzon — Senior Data Engineer"
+  },
+  "nav": {
+    "home": "Inicio",
+    "technologies": "Tecnologías",
+    "impressum": "Aviso legal"
+  },
+  "language": {
+    "label": "Elegir idioma",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español"
+  },
+  "footer": {
+    "impressum": "Aviso legal",
+    "privacy": "Política de privacidad"
+  },
+  "common": {
+    "phoneLabel": "Teléfono",
+    "emailLabel": "Correo electrónico",
+    "country": {
+      "de": "Alemania",
+      "ie": "Irlanda"
+    }
+  },
+  "home": {
+    "eyebrow": "Ingeniería de datos y plataformas analíticas",
+    "role": "Senior Data Engineer",
+    "intro": "Texto provisional — sustitúyelo por tus propias palabras. Diseño y opero plataformas de datos que convierten sistemas de origen desordenados en conjuntos de datos fiables y bien modelados: procesos por lotes y en streaming, orquestación, controles de calidad de datos y la capa de reporting que los equipos de negocio realmente utilizan.",
+    "daily": "En el día a día eso significa Python y SQL, capas de transformación al estilo dbt, orquestación con Dagster y Airflow, almacenes de datos como BigQuery y Snowflake, y el pegamento de CI/CD y observabilidad que mantiene todo aburrido en el mejor sentido de la palabra.",
+    "extra": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
+  },
+  "technologies": {
+    "eyebrow": "Lo que aporto a tus proyectos",
+    "title": "Tecnologías",
+    "subtitle": "Herramientas que utilizo en proyectos de clientes",
+    "intro": "Texto provisional — sustitúyelo por tus propias palabras. El stack que aparece a continuación es al que recurro para construir y operar plataformas de datos: ingesta, transformación, orquestación y la capa de reporting que va encima.",
+    "note": "Nota: esta lista es provisional y debería adaptarse a las tecnologías realmente ofrecidas.",
+    "groups": {
+      "languages": "Lenguajes",
+      "transformation": "Transformación y modelado",
+      "orchestration": "Orquestación",
+      "warehouses": "Almacenes y almacenamiento",
+      "streaming": "Streaming e integración",
+      "platform": "Plataforma y despliegue",
+      "quality": "Calidad y observabilidad",
+      "reporting": "Reporting"
+    },
+    "items": {
+      "dimensionalModelling": "Modelado dimensional",
+      "cronSchedules": "Cron / programaciones de GitLab",
+      "objectStorage": "Almacenamiento de objetos (S3 / GCS)",
+      "restGraphqlApis": "APIs REST y GraphQL",
+      "changeDataCapture": "Captura de datos de cambios (CDC)",
+      "dataQualityChecks": "Controles de calidad de datos",
+      "monitoringAlerting": "Monitorización y alertas",
+      "adHocAnalytics": "Análisis ad hoc"
+    }
+  },
+  "impressum": {
+    "pageTitle": "Aviso legal",
+    "pageSubtitle": "Información conforme al § 5 de la Ley alemana de Servicios Digitales (Digitale-Dienste-Gesetz – DDG)",
+    "heading": "Aviso legal (Español)",
+    "note": "Esta versión en español se ofrece únicamente por comodidad; la versión alemana que figura más arriba es la vinculante.",
+    "contactHeading": "Contacto",
+    "vatHeading": "Número de identificación fiscal (IVA)",
+    "vatText": "Número de identificación a efectos del impuesto sobre el valor añadido conforme al § 27a de la Ley alemana del IVA (UStG):",
+    "disputeHeading": "Resolución de litigios en materia de consumo",
+    "disputeText": "No estoy dispuesto ni obligado a participar en procedimientos de resolución de litigios ante una junta arbitral de consumo.",
+    "contentLiabilityHeading": "Responsabilidad por los contenidos",
+    "contentLiabilityText": "Los contenidos de este sitio web se han elaborado con el mayor cuidado posible. No obstante, no puede asumirse ninguna garantía sobre su exactitud, integridad y actualidad.",
+    "linksLiabilityHeading": "Responsabilidad por enlaces externos",
+    "linksLiabilityText": "Este sitio web puede contener enlaces a sitios web externos de terceros sobre cuyos contenidos no tengo influencia alguna. Por ello no puede asumirse ninguna garantía sobre dichos contenidos ajenos. Del contenido de las páginas enlazadas es siempre responsable el correspondiente proveedor u operador.",
+    "copyrightHeading": "Derechos de autor",
+    "copyrightText": "Los contenidos y obras creados por mí en este sitio web están sujetos, salvo indicación en contrario, a la legislación alemana sobre derechos de autor. La reproducción, edición, distribución o cualquier otro tipo de explotación fuera de los límites legalmente permitidos requiere mi consentimiento previo por escrito."
+  },
+  "privacy": {
+    "pageTitle": "Política de privacidad",
+    "pageSubtitle": "Información sobre el tratamiento de datos personales conforme al RGPD",
+    "heading": "Política de privacidad (Español)",
+    "note": "Esta versión en español se ofrece únicamente por comodidad; la versión alemana que figura más arriba es la vinculante.",
+    "lastUpdated": "Última actualización: {{date}}",
+    "s1": {
+      "heading": "1. La protección de datos de un vistazo",
+      "p1": "La protección de sus datos personales es importante para mí. Esta política de privacidad le informa sobre qué datos personales se recogen al visitar este sitio web y cómo se tratan.",
+      "p2": "Son datos personales todas las informaciones relativas a una persona física identificada o identificable."
+    },
+    "s2": {
+      "heading": "2. Responsable del tratamiento",
+      "p1": "El responsable del tratamiento de datos en este sitio web, en el sentido del Reglamento General de Protección de Datos (RGPD), es:"
+    },
+    "s3": {
+      "heading": "3. Alojamiento web",
+      "p1": "Este sitio web está alojado por:",
+      "p2": "Al visitar este sitio web, el proveedor de alojamiento puede tratar datos técnicos necesarios para la prestación y el funcionamiento seguro y fiable del sitio web. En particular, pueden incluirse:",
+      "items": [
+        "dirección IP o dirección IP anonimizada",
+        "fecha y hora del acceso",
+        "página o archivo solicitado",
+        "tipo y versión del navegador",
+        "sistema operativo utilizado",
+        "URL de referencia (referrer)",
+        "información sobre el proveedor de acceso",
+        "información técnica sobre la solicitud y su respuesta"
+      ],
+      "p3": "El tratamiento de estos datos se realiza para la prestación segura, fiable y técnicamente correcta de este sitio web.",
+      "p4": "La base jurídica del tratamiento es el art. 6, apdo. 1, letra f) del RGPD. Mi interés legítimo consiste en la prestación segura y técnicamente fiable de mi sitio web.",
+      "p5": "STRATO actúa como prestador de servicios en el marco del alojamiento web.",
+      "p6": "Encontrará más información sobre el tratamiento de datos personales por parte de STRATO en la información de protección de datos de STRATO."
+    },
+    "s4": {
+      "heading": "4. Formulario de contacto",
+      "p1": "Este sitio web ofrece un formulario de contacto a través del cual puede ponerse en contacto conmigo.",
+      "p2": "Si utiliza el formulario de contacto, los datos que introduzca se tratarán para gestionar y responder a su consulta. En particular, pueden ser los siguientes datos:",
+      "items": [
+        "su nombre",
+        "su dirección de correo electrónico",
+        "su mensaje",
+        "otra información que facilite voluntariamente en su mensaje"
+      ],
+      "p3": "Los datos transmitidos se utilizarán exclusivamente para gestionar su consulta, salvo que otro tratamiento esté legalmente permitido o sea necesario.",
+      "p4": "Si su consulta se refiere al inicio o a la ejecución de una relación contractual, el tratamiento se basa en el art. 6, apdo. 1, letra b) del RGPD.",
+      "p5": "En el caso de otras consultas, el tratamiento se basa en mi interés legítimo en gestionar y responder a las consultas que se me dirigen, conforme al art. 6, apdo. 1, letra f) del RGPD.",
+      "p6": "Los datos que usted transmita se suprimirán en cuanto su consulta haya sido tratada de forma definitiva y no existan obligaciones legales de conservación u otros motivos jurídicos para seguir almacenándolos.",
+      "p7": "Le rogamos que no transmita datos personales sensibles a través del formulario de contacto, salvo que sea necesario para su consulta."
+    },
+    "s5": {
+      "heading": "5. LinkedIn",
+      "p1": "Este sitio web contiene un enlace a mi perfil en LinkedIn.",
+      "p2": "Se trata de un hiperenlace externo normal. En este sitio web no se utilizan plugins de LinkedIn ni contenidos incrustados de LinkedIn.",
+      "p3": "Por ello, la mera consulta de una página que contiene un enlace a LinkedIn no transmite datos a LinkedIn. Solo cuando hace clic en el enlace de LinkedIn abandona este sitio web y es redirigido a LinkedIn. A continuación, LinkedIn puede tratar datos personales conforme a sus propias disposiciones de protección de datos.",
+      "p4": "Para los usuarios dentro del Espacio Económico Europeo, el responsable es:",
+      "p5": "Encontrará más información sobre el tratamiento de datos personales por parte de LinkedIn en la política de privacidad de LinkedIn."
+    },
+    "s6": {
+      "heading": "6. Cookies, analítica y seguimiento",
+      "p1": "Este sitio web no utiliza servicios de analítica, publicidad ni seguimiento.",
+      "p2": "En la medida en que el proveedor de alojamiento o el software del sitio web utilicen cookies técnicamente necesarias, estas sirven exclusivamente para proporcionar las funciones necesarias para el funcionamiento del sitio web.",
+      "p3": "Por mi parte no se utilizan datos personales para publicidad personalizada ni para el seguimiento entre sitios web."
+    },
+    "s7": {
+      "heading": "7. Cifrado SSL/TLS",
+      "p1": "Por motivos de seguridad, este sitio web utiliza cifrado SSL/TLS. Ello sirve, en particular, para proteger contenidos confidenciales, como los datos que usted transmite a través del formulario de contacto.",
+      "p2": "Por lo general, reconocerá una conexión cifrada por el hecho de que la barra de direcciones de su navegador comienza por «https://»."
+    },
+    "s8": {
+      "heading": "8. Sus derechos",
+      "p1": "Con arreglo a los requisitos legales, le asisten en particular los siguientes derechos en relación con sus datos personales:",
+      "rights": [
+        {
+          "term": "Derecho de acceso",
+          "ref": "conforme al art. 15 del RGPD"
+        },
+        {
+          "term": "Derecho de rectificación",
+          "ref": "conforme al art. 16 del RGPD"
+        },
+        {
+          "term": "Derecho de supresión",
+          "ref": "conforme al art. 17 del RGPD"
+        },
+        {
+          "term": "Derecho a la limitación del tratamiento",
+          "ref": "conforme al art. 18 del RGPD"
+        },
+        {
+          "term": "Derecho a la portabilidad de los datos",
+          "ref": "conforme al art. 20 del RGPD"
+        },
+        {
+          "term": "Derecho de oposición",
+          "ref": "conforme al art. 21 del RGPD"
+        }
+      ],
+      "p2": "En la medida en que un tratamiento se base en su consentimiento, tiene además derecho a retirar en cualquier momento el consentimiento prestado, con efectos para el futuro.",
+      "p3": "Para ejercer sus derechos puede dirigirse a mí utilizando los datos de contacto indicados más arriba."
+    },
+    "s9": {
+      "heading": "9. Oposición al tratamiento",
+      "p1": "En la medida en que se traten datos personales sobre la base del art. 6, apdo. 1, letra f) del RGPD, tiene derecho, conforme al art. 21 del RGPD, a oponerse en cualquier momento al tratamiento de sus datos personales por motivos relacionados con su situación particular.",
+      "p2": "En caso de oposición, dejaré de tratar los datos personales afectados, salvo que existan motivos legítimos imperiosos para el tratamiento que prevalezcan sobre sus intereses, derechos y libertades, o que el tratamiento sirva para la formulación, el ejercicio o la defensa de reclamaciones."
+    },
+    "s10": {
+      "heading": "10. Derecho a presentar una reclamación ante una autoridad de control",
+      "p1": "Conforme al art. 77 del RGPD, tiene derecho a presentar una reclamación ante una autoridad de control en materia de protección de datos si considera que el tratamiento de sus datos personales infringe el RGPD.",
+      "p2": "Puede dirigirse, en particular, a la autoridad de control de su lugar de residencia habitual, de su lugar de trabajo o del lugar de la supuesta infracción."
+    },
+    "s11": {
+      "heading": "11. Modificación de esta política de privacidad",
+      "p1": "Esta política de privacidad puede adaptarse si cambian las funciones de este sitio web o si resulta necesaria una adaptación por motivos jurídicos o técnicos."
+    }
+  }
+}

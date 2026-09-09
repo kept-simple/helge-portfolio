@@ -1,0 +1,139 @@
+:root {
+  --panel-bg: rgba(9, 17, 28, 0.55);
+  --panel-border: rgba(255, 255, 255, 0.18);
+  --accent: #6fd3e8;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: #f2f6fa;
+  background-color: #0b1420;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.site {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fixed, dimmed background image so a text box on top stays readable. */
+.site-background {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(6, 12, 20, 0.35),
+      rgba(6, 12, 20, 0.6)
+    ),
+    url('/beach-storm.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.site-navbar {
+  background-color: rgba(6, 12, 20, 0.6);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.site-navbar .navbar-brand,
+.site-navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.site-navbar .nav-link:hover,
+.site-navbar .nav-link.active {
+  color: #fff;
+}
+
+.site-navbar .nav-link.active {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+
+.site-main {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.site-footer {
+  flex: 0 0 auto;
+  padding: 1rem 0;
+  border-top: 1px solid var(--panel-border);
+  background-color: rgba(6, 12, 20, 0.6);
+  backdrop-filter: blur(8px);
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.875rem;
+}
+
+.site-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.site-footer-links a {
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+}
+
+.site-footer-links a:hover,
+.site-footer-links a.active {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 4px;
+}
+
+/* The semi-transparent text box that sits on the background image. */
+.text-panel {
+  max-width: 46rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 1px solid var(--panel-border);
+  border-radius: 1rem;
+  background-color: var(--panel-bg);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.45);
+  line-height: 1.7;
+}
+
+.text-panel-eyebrow {
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.text-panel-title {
+  margin-bottom: 1.5rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.text-panel-subtitle {
+  display: block;
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: clamp(1rem, 2.5vw, 1.35rem);
+  font-weight: 400;
+}
+
+.text-panel-note {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
