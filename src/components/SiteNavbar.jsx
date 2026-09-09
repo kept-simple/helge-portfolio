@@ -27,9 +27,6 @@ export default function SiteNavbar() {
             <Nav.Link as={NavLink} to="/contact">
               {t('nav.contact')}
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/impressum">
-              {t('nav.impressum')}
-            </Nav.Link>
             <LanguageSwitcher />
           </Nav>
         </Navbar.Collapse>
