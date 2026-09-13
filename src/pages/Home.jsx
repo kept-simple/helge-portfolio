@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container'
-import { useTranslation } from 'react-i18next'
+import { Trans, useTranslation } from 'react-i18next'
 
 export default function Home() {
   const { t } = useTranslation()
@@ -19,8 +19,10 @@ export default function Home() {
         </div>
 
         <p>{t('home.intro')}</p>
-        <p>{t('home.daily')}</p>
-        <p className="mb-0">{t('home.extra')}</p>
+        <p>
+          <Trans i18nKey="home.principle" />
+        </p>
+        <p className="mb-0">{t('home.reputation')}</p>
       </section>
     </Container>
   )

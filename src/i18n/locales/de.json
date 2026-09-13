@@ -30,9 +30,9 @@
     "eyebrow": "Data Engineering & Analytics-Plattformen",
     "role": "Senior Data Engineer",
     "portraitAlt": "Porträtfoto von Helge Dzierzon",
-    "intro": "Platzhaltertext — bitte durch eigene Worte ersetzen. Ich entwerfe und betreibe Datenplattformen, die unübersichtliche Quellsysteme in verlässliche, sauber modellierte Datensätze verwandeln: Batch- und Streaming-Pipelines, Orchestrierung, Datenqualitätsprüfungen und die Reporting-Schicht, die Fachbereiche tatsächlich nutzen.",
-    "daily": "Im Alltag heißt das Python und SQL, Transformationsschichten im dbt-Stil, Orchestrierung mit Dagster und Airflow, Warehouses wie BigQuery und Snowflake sowie der CI/CD- und Observability-Kitt, der das Ganze im besten Sinne langweilig hält.",
-    "extra": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
+    "intro": "Ich baue Datenlösungen, die funktionieren — und halte sie einfach. Mit jahrzehntelanger Erfahrung in Softwareentwicklung, Big Data und modernen Datenplattformen helfe ich Unternehmen, komplexe Datenherausforderungen in robuste, wartbare Systeme zu verwandeln und KI dort einzusetzen, wo sie echten Nutzen bringt.",
+    "principle": "Mein Leitprinzip lautet <strong>kept simple</strong>: unnötige Komplexität reduzieren, das Wesentliche in den Blick nehmen und Lösungen bauen, die Bestand haben.",
+    "reputation": "Kunden und Kollegen kennen mich als jemanden, der Dinge zu Ende bringt — ein ruhiger, pragmatischer Ingenieur und technischer Leiter, der Klarheit schafft und wie ein Fels steht, wenn Projekte chaotisch werden."
   },
   "technologies": {
     "eyebrow": "Was ich in Ihre Projekte einbringe",
@@ -48,7 +48,8 @@
       "streaming": "Streaming & Integration",
       "platform": "Plattform & Delivery",
       "quality": "Qualität & Observability",
-      "reporting": "Reporting"
+      "reporting": "Reporting",
+      "gis": "GIS & Geodaten"
     },
     "items": {
       "dimensionalModelling": "Dimensionale Modellierung",

@@ -30,9 +30,9 @@
     "eyebrow": "Ingeniería de datos y plataformas analíticas",
     "role": "Senior Data Engineer",
     "portraitAlt": "Foto de retrato de Helge Dzierzon",
-    "intro": "Texto provisional — sustitúyelo por tus propias palabras. Diseño y opero plataformas de datos que convierten sistemas de origen desordenados en conjuntos de datos fiables y bien modelados: procesos por lotes y en streaming, orquestación, controles de calidad de datos y la capa de reporting que los equipos de negocio realmente utilizan.",
-    "daily": "En el día a día eso significa Python y SQL, capas de transformación al estilo dbt, orquestación con Dagster y Airflow, almacenes de datos como BigQuery y Snowflake, y el pegamento de CI/CD y observabilidad que mantiene todo aburrido en el mejor sentido de la palabra.",
-    "extra": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
+    "intro": "Construyo soluciones de datos que funcionan — y las mantengo simples. Con décadas de experiencia en ingeniería de software, Big Data y plataformas de datos modernas, ayudo a las empresas a convertir retos de datos complejos en sistemas robustos y mantenibles, y a usar la IA allí donde aporta valor real.",
+    "principle": "Mi principio rector es <strong>kept simple</strong>: reducir la complejidad innecesaria, centrarse en lo que importa y construir soluciones que duren.",
+    "reputation": "Clientes y colegas me conocen como alguien que saca las cosas adelante — un ingeniero y líder técnico tranquilo y pragmático que aporta claridad y se mantiene firme como una roca cuando los proyectos se vuelven caóticos."
   },
   "technologies": {
     "eyebrow": "Lo que aporto a tus proyectos",
@@ -48,7 +48,8 @@
       "streaming": "Streaming e integración",
       "platform": "Plataforma y despliegue",
       "quality": "Calidad y observabilidad",
-      "reporting": "Reporting"
+      "reporting": "Reporting",
+      "gis": "GIS y datos geoespaciales"
     },
     "items": {
       "dimensionalModelling": "Modelado dimensional",
