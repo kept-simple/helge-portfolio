@@ -7,11 +7,16 @@ export default function Home() {
   return (
     <Container className="py-5">
       <section className="text-panel">
-        <p className="text-panel-eyebrow">{t('home.eyebrow')}</p>
-        <h1 className="text-panel-title">
-          Helge Dzierzon
-          <span className="text-panel-subtitle">{t('home.role')}</span>
-        </h1>
+        <div className="text-panel-header">
+          <div>
+            <p className="text-panel-eyebrow">{t('home.eyebrow')}</p>
+            <h1 className="text-panel-title">
+              Helge Dzierzon
+              <span className="text-panel-subtitle">{t('home.role')}</span>
+            </h1>
+          </div>
+          <img src="/helge_busy.png" alt={t('home.portraitAlt')} className="text-panel-portrait" />
+        </div>
 
         <p>{t('home.intro')}</p>
         <p>{t('home.daily')}</p>

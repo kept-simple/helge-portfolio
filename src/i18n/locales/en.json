@@ -29,6 +29,7 @@
   "home": {
     "eyebrow": "Data Engineering & Analytics Platforms",
     "role": "Senior Data Engineer",
+    "portraitAlt": "Portrait photo of Helge Dzierzon",
     "intro": "Placeholder copy — replace with your own words. I design and operate data platforms that turn messy source systems into dependable, well-modelled datasets: batch and streaming pipelines, orchestration, data quality checks, and the reporting layer that business teams actually use.",
     "daily": "Day to day that means Python and SQL, dbt-style transformation layers, Dagster and Airflow orchestration, warehouses such as BigQuery and Snowflake, and the CI/CD and observability glue that keeps it all boring in the best possible way.",
     "extra": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."

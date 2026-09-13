@@ -12,7 +12,8 @@ export default function SiteNavbar() {
   return (
     <Navbar expand="sm" variant="dark" className="site-navbar" sticky="top">
       <Container>
-        <Navbar.Brand as={NavLink} to="/" className="fw-semibold">
+        <Navbar.Brand as={NavLink} to="/" className="fw-semibold d-flex align-items-center gap-2">
+          <img src="/helge.png" alt="" className="site-navbar-avatar" />
           Helge Dzierzon
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="site-nav" />

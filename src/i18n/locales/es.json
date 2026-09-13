@@ -29,6 +29,7 @@
   "home": {
     "eyebrow": "Ingeniería de datos y plataformas analíticas",
     "role": "Senior Data Engineer",
+    "portraitAlt": "Foto de retrato de Helge Dzierzon",
     "intro": "Texto provisional — sustitúyelo por tus propias palabras. Diseño y opero plataformas de datos que convierten sistemas de origen desordenados en conjuntos de datos fiables y bien modelados: procesos por lotes y en streaming, orquestación, controles de calidad de datos y la capa de reporting que los equipos de negocio realmente utilizan.",
     "daily": "En el día a día eso significa Python y SQL, capas de transformación al estilo dbt, orquestación con Dagster y Airflow, almacenes de datos como BigQuery y Snowflake, y el pegamento de CI/CD y observabilidad que mantiene todo aburrido en el mejor sentido de la palabra.",
     "extra": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
