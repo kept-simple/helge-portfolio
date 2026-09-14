@@ -15,7 +15,11 @@ export default function Home() {
               <span className="text-panel-subtitle">{t('home.role')}</span>
             </h1>
           </div>
-          <img src="/helge_busy.png" alt={t('home.portraitAlt')} className="text-panel-portrait" />
+          <img
+            src={`${import.meta.env.BASE_URL}helge_busy.png`}
+            alt={t('home.portraitAlt')}
+            className="text-panel-portrait"
+          />
         </div>
 
         <p>{t('home.intro')}</p>
