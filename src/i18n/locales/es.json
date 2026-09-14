@@ -23,7 +23,9 @@
     "emailLabel": "Correo electrónico",
     "country": {
       "de": "Alemania",
-      "ie": "Irlanda"
+      "ie": "Irlanda",
+      "us": "Estados Unidos",
+      "nl": "Países Bajos"
     }
   },
   "home": {
@@ -105,8 +107,9 @@
     },
     "s3": {
       "heading": "3. Alojamiento web",
-      "p1": "Este sitio web está alojado por:",
-      "p2": "Al visitar este sitio web, el proveedor de alojamiento puede tratar datos técnicos necesarios para la prestación y el funcionamiento seguro y fiable del sitio web. En particular, pueden incluirse:",
+      "p1": "Este sitio web es un sitio puramente estático y se presta a través de GitHub Pages. El proveedor de alojamiento es:",
+      "euEntityIntro": "Dentro del Espacio Económico Europeo, GitHub está representada por:",
+      "p2": "Al visitar este sitio web, GitHub, como proveedor de alojamiento, puede tratar datos técnicos necesarios para la prestación y el funcionamiento seguro y fiable del sitio web. En particular, pueden incluirse:",
       "items": [
         "dirección IP o dirección IP anonimizada",
         "fecha y hora del acceso",
@@ -117,26 +120,27 @@
         "información sobre el proveedor de acceso",
         "información técnica sobre la solicitud y su respuesta"
       ],
-      "p3": "El tratamiento de estos datos se realiza para la prestación segura, fiable y técnicamente correcta de este sitio web.",
+      "p3": "El tratamiento de estos datos se realiza para la prestación segura, fiable y técnicamente correcta de este sitio web. Según las indicaciones de GitHub, la dirección IP de quienes visitan un sitio de GitHub Pages se registra y almacena con fines de seguridad.",
       "p4": "La base jurídica del tratamiento es el art. 6, apdo. 1, letra f) del RGPD. Mi interés legítimo consiste en la prestación segura y técnicamente fiable de mi sitio web.",
-      "p5": "STRATO actúa como prestador de servicios en el marco del alojamiento web.",
-      "p6": "Encontrará más información sobre el tratamiento de datos personales por parte de STRATO en la información de protección de datos de STRATO."
+      "p5": "GitHub Pages se utiliza como servicio en el marco del alojamiento web. Dado que este sitio web consta exclusivamente de archivos estáticos, no se realiza por mi parte ningún tratamiento de sus entradas en el servidor; tampoco tengo acceso a los archivos de registro del servidor de GitHub.",
+      "p6": "Encontrará más información sobre el tratamiento de datos personales por parte de GitHub en la política general de privacidad de GitHub (GitHub General Privacy Statement).",
+      "p7": "Dado que GitHub, Inc. tiene su domicilio en los Estados Unidos, pueden transferirse datos personales —en particular su dirección IP— a EE. UU. y, por tanto, a un tercer país. Según sus propias indicaciones, GitHub, Inc. está certificada en el marco del EU-US Data Privacy Framework, respecto del cual la Comisión Europea ha adoptado una decisión de adecuación conforme al art. 45 del RGPD. De forma complementaria, GitHub basa las transferencias a terceros países en las cláusulas contractuales tipo de la Comisión Europea (Decisión de Ejecución (UE) 2021/914), conforme al art. 46, apdo. 2, letra c) del RGPD."
     },
     "s4": {
-      "heading": "4. Formulario de contacto",
-      "p1": "Este sitio web ofrece un formulario de contacto a través del cual puede ponerse en contacto conmigo.",
-      "p2": "Si utiliza el formulario de contacto, los datos que introduzca se tratarán para gestionar y responder a su consulta. En particular, pueden ser los siguientes datos:",
+      "heading": "4. Contacto",
+      "p1": "Este sitio web no ofrece ningún formulario de contacto. Al tratarse de un sitio web estático, a través del propio sitio web no pueden recogerse datos suyos ni transmitírseme.",
+      "p2": "Si se pone en contacto conmigo a través de la dirección de correo electrónico o del número de teléfono indicados en este sitio web, los datos que me facilite se tratarán para gestionar y responder a su consulta. En particular, pueden ser los siguientes datos:",
       "items": [
         "su nombre",
-        "su dirección de correo electrónico",
-        "su mensaje",
-        "otra información que facilite voluntariamente en su mensaje"
+        "su dirección de correo electrónico o su número de teléfono",
+        "el contenido de su mensaje",
+        "otra información que facilite voluntariamente"
       ],
       "p3": "Los datos transmitidos se utilizarán exclusivamente para gestionar su consulta, salvo que otro tratamiento esté legalmente permitido o sea necesario.",
       "p4": "Si su consulta se refiere al inicio o a la ejecución de una relación contractual, el tratamiento se basa en el art. 6, apdo. 1, letra b) del RGPD.",
       "p5": "En el caso de otras consultas, el tratamiento se basa en mi interés legítimo en gestionar y responder a las consultas que se me dirigen, conforme al art. 6, apdo. 1, letra f) del RGPD.",
       "p6": "Los datos que usted transmita se suprimirán en cuanto su consulta haya sido tratada de forma definitiva y no existan obligaciones legales de conservación u otros motivos jurídicos para seguir almacenándolos.",
-      "p7": "Le rogamos que no transmita datos personales sensibles a través del formulario de contacto, salvo que sea necesario para su consulta."
+      "p7": "Tenga en cuenta que la transmisión de correos electrónicos a través de Internet puede realizarse sin cifrar. Por ello, no envíe datos personales sensibles por correo electrónico salvo que sea necesario para su consulta."
     },
     "s5": {
       "heading": "5. LinkedIn",
@@ -147,14 +151,14 @@
       "p5": "Encontrará más información sobre el tratamiento de datos personales por parte de LinkedIn en la política de privacidad de LinkedIn."
     },
     "s6": {
-      "heading": "6. Cookies, analítica y seguimiento",
-      "p1": "Este sitio web no utiliza servicios de analítica, publicidad ni seguimiento.",
-      "p2": "En la medida en que el proveedor de alojamiento o el software del sitio web utilicen cookies técnicamente necesarias, estas sirven exclusivamente para proporcionar las funciones necesarias para el funcionamiento del sitio web.",
+      "heading": "6. Cookies, almacenamiento local, analítica y seguimiento",
+      "p1": "Este sitio web no utiliza servicios de analítica, publicidad ni seguimiento y no instala cookies.",
+      "p2": "El idioma de visualización que usted seleccione se guarda en el almacenamiento local (localStorage) de su navegador. Esta información permanece en su navegador, no se transmite ni a mí ni a terceros y puede eliminarse en cualquier momento desde la configuración de su navegador. Este almacenamiento es estrictamente necesario para prestar el servicio solicitado por usted (§ 25, apdo. 2, n.º 2 de la TDDDG alemana).",
       "p3": "Por mi parte no se utilizan datos personales para publicidad personalizada ni para el seguimiento entre sitios web."
     },
     "s7": {
       "heading": "7. Cifrado SSL/TLS",
-      "p1": "Por motivos de seguridad, este sitio web utiliza cifrado SSL/TLS. Ello sirve, en particular, para proteger contenidos confidenciales, como los datos que usted transmite a través del formulario de contacto.",
+      "p1": "Este sitio web se sirve a través de una conexión cifrada SSL/TLS (HTTPS). El cifrado lo proporciona GitHub Pages y protege la transmisión de los contenidos que usted consulta.",
       "p2": "Por lo general, reconocerá una conexión cifrada por el hecho de que la barra de direcciones de su navegador comienza por «https://»."
     },
     "s8": {

@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container'
 import { useTranslation } from 'react-i18next'
 
-import { host, linkedin, owner } from '../data/contact.js'
+import { host, hostEuEntity, linkedin, owner } from '../data/contact.js'
 
-const LAST_UPDATED = new Date(2026, 8, 1)
+const LAST_UPDATED = new Date(2026, 8, 13)
 
 function Address({ t, entity }) {
   return (
@@ -58,12 +58,15 @@ function LegalBody({ t, lang }) {
       <h3 className="h5 mt-4">{t('privacy.s3.heading')}</h3>
       <p>{t('privacy.s3.p1')}</p>
       <Address t={t} entity={host} />
+      <p>{t('privacy.s3.euEntityIntro')}</p>
+      <Address t={t} entity={hostEuEntity} />
       <p>{t('privacy.s3.p2')}</p>
       <List t={t} i18nKey="privacy.s3.items" />
       <p>{t('privacy.s3.p3')}</p>
       <p>{t('privacy.s3.p4')}</p>
       <p>{t('privacy.s3.p5')}</p>
-      <p className="mb-0">{t('privacy.s3.p6')}</p>
+      <p>{t('privacy.s3.p6')}</p>
+      <p className="mb-0">{t('privacy.s3.p7')}</p>
 
       <h3 className="h5 mt-4">{t('privacy.s4.heading')}</h3>
       <p>{t('privacy.s4.p1')}</p>
