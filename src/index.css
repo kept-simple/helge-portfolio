@@ -45,6 +45,14 @@ body {
   border-bottom: 1px solid var(--panel-border);
 }
 
+.site-navbar-avatar {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  border: 1px solid var(--panel-border);
+  object-fit: cover;
+}
+
 .site-navbar .navbar-brand,
 .site-navbar .nav-link {
   color: rgba(255, 255, 255, 0.85);
@@ -107,6 +115,24 @@ body {
   backdrop-filter: blur(10px);
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.45);
   line-height: 1.7;
+}
+
+/* Title block on the left, portrait pinned to the top-right of the panel. */
+.text-panel-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: clamp(1rem, 3vw, 2rem);
+}
+
+.text-panel-portrait {
+  flex: 0 0 auto;
+  width: clamp(4.5rem, 14vw, 7.5rem);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid var(--panel-border);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.35);
+  object-fit: cover;
 }
 
 .text-panel-eyebrow {

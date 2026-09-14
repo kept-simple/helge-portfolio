@@ -5,6 +5,7 @@
   "nav": {
     "home": "Home",
     "technologies": "Technologies",
+    "contact": "Contact",
     "impressum": "Legal Notice"
   },
   "language": {
@@ -22,15 +23,18 @@
     "emailLabel": "Email",
     "country": {
       "de": "Germany",
-      "ie": "Ireland"
+      "ie": "Ireland",
+      "us": "United States",
+      "nl": "Netherlands"
     }
   },
   "home": {
     "eyebrow": "Data Engineering & Analytics Platforms",
     "role": "Senior Data Engineer",
-    "intro": "Placeholder copy — replace with your own words. I design and operate data platforms that turn messy source systems into dependable, well-modelled datasets: batch and streaming pipelines, orchestration, data quality checks, and the reporting layer that business teams actually use.",
-    "daily": "Day to day that means Python and SQL, dbt-style transformation layers, Dagster and Airflow orchestration, warehouses such as BigQuery and Snowflake, and the CI/CD and observability glue that keeps it all boring in the best possible way.",
-    "extra": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
+    "portraitAlt": "Portrait photo of Helge Dzierzon",
+    "intro": "I build data solutions that work — and keep them simple. With decades of experience in software engineering, Big Data and modern data platforms, I help companies turn complex data challenges into robust, maintainable systems and use AI where it creates real value.",
+    "principle": "My guiding principle is <strong>kept simple</strong>: reduce unnecessary complexity, focus on what matters, and build solutions that last.",
+    "reputation": "Clients and colleagues know me as someone who gets things done — a calm, pragmatic engineer and technical leader who brings clarity and stands like a rock when projects get chaotic."
   },
   "technologies": {
     "eyebrow": "What I bring to your projects",
@@ -46,7 +50,8 @@
       "streaming": "Streaming & Integration",
       "platform": "Platform & Delivery",
       "quality": "Quality & Observability",
-      "reporting": "Reporting"
+      "reporting": "Reporting",
+      "gis": "GIS & Geospatial"
     },
     "items": {
       "dimensionalModelling": "Dimensional modelling",
@@ -58,6 +63,15 @@
       "monitoringAlerting": "Monitoring & alerting",
       "adHocAnalytics": "Ad-hoc analytics"
     }
+  },
+  "contact": {
+    "eyebrow": "Working together & enquiries",
+    "title": "Contact",
+    "subtitle": "How to reach me",
+    "intro": "Got a project, a question about a data platform, or want to talk about working together? Email is the fastest way to reach me. By phone I am usually available during normal business hours.",
+    "directHeading": "Direct contact",
+    "addressHeading": "Postal address",
+    "note": "Please do not send sensitive personal data by email unless it is necessary for your enquiry. For more information on how your data is processed, see the privacy policy."
   },
   "impressum": {
     "pageTitle": "Legal Notice",
@@ -93,8 +107,9 @@
     },
     "s3": {
       "heading": "3. Hosting",
-      "p1": "This website is hosted by:",
-      "p2": "When you visit this website, the hosting provider may process technical information necessary to deliver the website and ensure its secure and reliable operation. This may include, in particular:",
+      "p1": "This website is a purely static website and is served via GitHub Pages. The hosting provider is:",
+      "euEntityIntro": "Within the European Economic Area, GitHub is represented by:",
+      "p2": "When you visit this website, GitHub as the hosting provider may process technical information necessary to deliver the website and ensure its secure and reliable operation. This may include, in particular:",
       "items": [
         "IP address or anonymised IP address",
         "date and time of access",
@@ -105,26 +120,27 @@
         "information concerning the requesting provider",
         "technical information concerning the request and response"
       ],
-      "p3": "The processing of this information is necessary for the secure, reliable and efficient operation of the website.",
+      "p3": "The processing of this information is necessary for the secure, reliable and efficient operation of the website. According to GitHub, the IP address of visitors to a GitHub Pages site is logged and stored for security purposes.",
       "p4": "The legal basis for this processing is Art. 6(1)(f) GDPR. My legitimate interest is the secure and technically reliable provision of this website.",
-      "p5": "STRATO acts as a service provider in connection with the hosting of this website.",
-      "p6": "Further information about STRATO's processing of personal data can be found in STRATO's privacy information."
+      "p5": "GitHub Pages acts as the hosting service for this website. As the website consists exclusively of static files, no server-side processing of your input takes place on my part, and I have no access to GitHub's server log files.",
+      "p6": "Further information about GitHub's processing of personal data can be found in the GitHub General Privacy Statement.",
+      "p7": "Because GitHub, Inc. is based in the United States, personal data — in particular your IP address — may be transferred to the USA and therefore to a third country. According to its own statements, GitHub, Inc. is certified under the EU-US Data Privacy Framework, for which the European Commission has issued an adequacy decision pursuant to Art. 45 GDPR. In addition, GitHub relies on the European Commission's standard contractual clauses (Implementing Decision (EU) 2021/914) pursuant to Art. 46(2)(c) GDPR for transfers to third countries."
     },
     "s4": {
-      "heading": "4. Contact Form",
-      "p1": "This website provides a contact form through which you can contact me.",
-      "p2": "When you use the contact form, the information you enter into the form is processed for the purpose of responding to your enquiry. Depending on the fields provided, this may include:",
+      "heading": "4. Contacting Me",
+      "p1": "This website does not provide a contact form. As it is a static website, no input can be collected from you or transmitted to me through the website itself.",
+      "p2": "If you contact me using the email address or telephone number given on this website, the information you provide is processed for the purpose of dealing with and responding to your enquiry. This may include, in particular:",
       "items": [
         "your name",
-        "your email address",
-        "your message",
-        "any other information you voluntarily provide in your message"
+        "your email address or telephone number",
+        "the content of your message",
+        "any other information you provide voluntarily"
       ],
       "p3": "The data is used solely to process and respond to your enquiry unless another use is permitted or required by law.",
       "p4": "If your enquiry concerns the initiation or performance of a contractual relationship, the legal basis for processing is Art. 6(1)(b) GDPR.",
       "p5": "For other enquiries, the processing is based on my legitimate interest in responding to enquiries addressed to me pursuant to Art. 6(1)(f) GDPR.",
       "p6": "Your data will be deleted when your enquiry has been conclusively dealt with and there is no legal obligation or other lawful reason to retain the data for a longer period.",
-      "p7": "Please do not submit sensitive personal information through the contact form unless this is necessary for your enquiry."
+      "p7": "Please note that email may be transmitted over the internet in unencrypted form. Please therefore do not send sensitive personal information by email unless this is necessary for your enquiry."
     },
     "s5": {
       "heading": "5. LinkedIn",
@@ -135,14 +151,14 @@
       "p5": "For information about how LinkedIn processes personal data, please refer to LinkedIn's Privacy Policy."
     },
     "s6": {
-      "heading": "6. Cookies and Tracking",
-      "p1": "This website does not use analytics, advertising or tracking services.",
-      "p2": "If technically necessary cookies are used by the hosting platform or website software, they are used only to provide functions necessary for the operation of the website.",
+      "heading": "6. Cookies, Local Storage and Tracking",
+      "p1": "This website does not use analytics, advertising or tracking services, and it does not set cookies.",
+      "p2": "The display language you select is stored in your browser's local storage. This information remains in your browser, is not transmitted to me or to any third party, and can be deleted at any time via your browser settings. Storing it is strictly necessary in order to provide the service you requested (Section 25(2) no. 2 TDDDG).",
       "p3": "No personal data is used for advertising or cross-site tracking by me."
     },
     "s7": {
       "heading": "7. SSL/TLS Encryption",
-      "p1": "This website uses SSL/TLS encryption to protect the transmission of confidential information, including information submitted through the contact form.",
+      "p1": "This website is served over an encrypted SSL/TLS connection (HTTPS). The encryption is provided by GitHub Pages and protects the transmission of the content you request.",
       "p2": "You can normally recognise an encrypted connection by the use of \"https://\" in your browser's address bar."
     },
     "s8": {

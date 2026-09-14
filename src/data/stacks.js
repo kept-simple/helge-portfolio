@@ -3,7 +3,7 @@
 export const stacks = [
   {
     id: 'languages',
-    items: ['Python', 'SQL', 'JavaScript / TypeScript', 'Bash'],
+    items: ['Python', 'SQL', 'C / C++', 'JavaScript / TypeScript', 'Bash'],
   },
   {
     id: 'transformation',
@@ -27,7 +27,7 @@ export const stacks = [
   },
   {
     id: 'platform',
-    items: ['Docker', 'Kubernetes', 'Terraform', 'GitLab CI/CD'],
+    items: ['Docker', 'Kubernetes', 'Terraform', 'GitLab CI/CD', 'GitHub CI/CD'],
   },
   {
     id: 'quality',
@@ -41,5 +41,9 @@ export const stacks = [
   {
     id: 'reporting',
     items: ['Looker', 'Metabase', 'Superset', { i18nKey: 'technologies.items.adHocAnalytics' }],
+  },
+  {
+    id: 'gis',
+    items: ['QGIS', 'ArcGIS', 'PostGIS', 'GDAL / OGR', 'GeoPandas'],
   },
 ]

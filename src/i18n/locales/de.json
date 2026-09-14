@@ -5,6 +5,7 @@
   "nav": {
     "home": "Startseite",
     "technologies": "Technologien",
+    "contact": "Kontakt",
     "impressum": "Impressum"
   },
   "language": {
@@ -22,15 +23,18 @@
     "emailLabel": "E-Mail",
     "country": {
       "de": "Deutschland",
-      "ie": "Irland"
+      "ie": "Irland",
+      "us": "USA",
+      "nl": "Niederlande"
     }
   },
   "home": {
     "eyebrow": "Data Engineering & Analytics-Plattformen",
     "role": "Senior Data Engineer",
-    "intro": "Platzhaltertext — bitte durch eigene Worte ersetzen. Ich entwerfe und betreibe Datenplattformen, die unübersichtliche Quellsysteme in verlässliche, sauber modellierte Datensätze verwandeln: Batch- und Streaming-Pipelines, Orchestrierung, Datenqualitätsprüfungen und die Reporting-Schicht, die Fachbereiche tatsächlich nutzen.",
-    "daily": "Im Alltag heißt das Python und SQL, Transformationsschichten im dbt-Stil, Orchestrierung mit Dagster und Airflow, Warehouses wie BigQuery und Snowflake sowie der CI/CD- und Observability-Kitt, der das Ganze im besten Sinne langweilig hält.",
-    "extra": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
+    "portraitAlt": "Porträtfoto von Helge Dzierzon",
+    "intro": "Ich baue Datenlösungen, die funktionieren — und halte sie einfach. Mit jahrzehntelanger Erfahrung in Softwareentwicklung, Big Data und modernen Datenplattformen helfe ich Unternehmen, komplexe Datenherausforderungen in robuste, wartbare Systeme zu verwandeln und KI dort einzusetzen, wo sie echten Nutzen bringt.",
+    "principle": "Mein Leitprinzip lautet <strong>kept simple</strong>: unnötige Komplexität reduzieren, das Wesentliche in den Blick nehmen und Lösungen bauen, die Bestand haben.",
+    "reputation": "Kunden und Kollegen kennen mich als jemanden, der Dinge zu Ende bringt — ein ruhiger, pragmatischer Ingenieur und technischer Leiter, der Klarheit schafft und wie ein Fels steht, wenn Projekte chaotisch werden."
   },
   "technologies": {
     "eyebrow": "Was ich in Ihre Projekte einbringe",
@@ -46,7 +50,8 @@
       "streaming": "Streaming & Integration",
       "platform": "Plattform & Delivery",
       "quality": "Qualität & Observability",
-      "reporting": "Reporting"
+      "reporting": "Reporting",
+      "gis": "GIS & Geodaten"
     },
     "items": {
       "dimensionalModelling": "Dimensionale Modellierung",
@@ -58,6 +63,15 @@
       "monitoringAlerting": "Monitoring & Alerting",
       "adHocAnalytics": "Ad-hoc-Analysen"
     }
+  },
+  "contact": {
+    "eyebrow": "Zusammenarbeit & Anfragen",
+    "title": "Kontakt",
+    "subtitle": "So erreichen Sie mich",
+    "intro": "Sie haben ein Projekt, eine Frage zu einer Datenplattform oder möchten eine Zusammenarbeit besprechen? Schreiben Sie mir gern eine E-Mail — das ist der schnellste Weg zu mir. Telefonisch bin ich in der Regel während der üblichen Geschäftszeiten erreichbar.",
+    "directHeading": "Direkter Kontakt",
+    "addressHeading": "Postadresse",
+    "note": "Bitte senden Sie keine sensiblen personenbezogenen Daten per E-Mail, sofern dies für Ihre Anfrage nicht erforderlich ist. Weitere Informationen zur Verarbeitung Ihrer Daten finden Sie in der Datenschutzerklärung."
   },
   "impressum": {
     "pageTitle": "Impressum",
@@ -93,8 +107,9 @@
     },
     "s3": {
       "heading": "3. Hosting",
-      "p1": "Diese Website wird gehostet durch:",
-      "p2": "Beim Besuch dieser Website können durch den Hosting-Anbieter technische Daten verarbeitet werden, die für die Bereitstellung sowie den sicheren und zuverlässigen Betrieb der Website erforderlich sind. Dazu können insbesondere gehören:",
+      "p1": "Diese Website ist eine rein statische Website und wird über GitHub Pages bereitgestellt. Anbieter ist:",
+      "euEntityIntro": "Innerhalb des Europäischen Wirtschaftsraums wird GitHub durch folgendes Unternehmen vertreten:",
+      "p2": "Beim Besuch dieser Website werden durch GitHub als Hosting-Anbieter technische Daten verarbeitet, die für die Bereitstellung sowie den sicheren und zuverlässigen Betrieb der Website erforderlich sind. Dazu können insbesondere gehören:",
       "items": [
         "IP-Adresse bzw. anonymisierte IP-Adresse",
         "Datum und Uhrzeit des Zugriffs",
@@ -105,26 +120,27 @@
         "Informationen über den zugreifenden Provider",
         "technische Informationen über die Anfrage und deren Beantwortung"
       ],
-      "p3": "Die Verarbeitung dieser Daten erfolgt zur sicheren, zuverlässigen und technisch einwandfreien Bereitstellung dieser Website.",
+      "p3": "Die Verarbeitung dieser Daten erfolgt zur sicheren, zuverlässigen und technisch einwandfreien Bereitstellung dieser Website. Nach Angaben von GitHub wird die IP-Adresse von Besuchern einer GitHub-Pages-Website zu Sicherheitszwecken protokolliert und gespeichert.",
       "p4": "Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse liegt in der sicheren und technisch zuverlässigen Bereitstellung meiner Website.",
-      "p5": "STRATO wird im Rahmen des Hostings als Dienstleister eingesetzt.",
-      "p6": "Weitere Informationen zur Verarbeitung personenbezogener Daten durch STRATO finden Sie in den Datenschutzinformationen von STRATO."
+      "p5": "GitHub Pages wird im Rahmen des Hostings als Dienst eingesetzt. Da diese Website ausschließlich aus statischen Dateien besteht, findet keine serverseitige Verarbeitung Ihrer Eingaben durch mich statt; auf die Server-Logdateien von GitHub habe ich keinen Zugriff.",
+      "p6": "Weitere Informationen zur Verarbeitung personenbezogener Daten durch GitHub finden Sie in der allgemeinen Datenschutzerklärung von GitHub (GitHub General Privacy Statement).",
+      "p7": "Da GitHub, Inc. seinen Sitz in den USA hat, können personenbezogene Daten – insbesondere Ihre IP-Adresse – in die USA und damit in ein Drittland übermittelt werden. GitHub, Inc. ist nach eigenen Angaben unter dem EU-US Data Privacy Framework zertifiziert, für das die Europäische Kommission einen Angemessenheitsbeschluss gemäß Art. 45 DSGVO erlassen hat. Ergänzend stützt GitHub Übermittlungen in Drittländer auf die Standardvertragsklauseln der Europäischen Kommission (Durchführungsbeschluss (EU) 2021/914) gemäß Art. 46 Abs. 2 lit. c DSGVO."
     },
     "s4": {
-      "heading": "4. Kontaktformular",
-      "p1": "Auf dieser Website wird ein Kontaktformular angeboten, über das Sie mit mir Kontakt aufnehmen können.",
-      "p2": "Wenn Sie das Kontaktformular verwenden, werden die von Ihnen eingegebenen Daten zur Bearbeitung und Beantwortung Ihrer Anfrage verarbeitet. Dies können insbesondere folgende Daten sein:",
+      "heading": "4. Kontaktaufnahme",
+      "p1": "Diese Website enthält kein Kontaktformular. Da es sich um eine statische Website handelt, können über die Website selbst keine Eingaben von Ihnen erhoben oder an mich übermittelt werden.",
+      "p2": "Wenn Sie mich über die auf dieser Website angegebene E-Mail-Adresse oder Telefonnummer kontaktieren, werden die von Ihnen dabei übermittelten Daten zur Bearbeitung und Beantwortung Ihrer Anfrage verarbeitet. Dies können insbesondere folgende Daten sein:",
       "items": [
         "Ihr Name",
-        "Ihre E-Mail-Adresse",
-        "Ihre Nachricht",
-        "weitere Informationen, die Sie freiwillig in Ihrer Nachricht angeben"
+        "Ihre E-Mail-Adresse bzw. Ihre Telefonnummer",
+        "der Inhalt Ihrer Nachricht",
+        "weitere Informationen, die Sie freiwillig mitteilen"
       ],
       "p3": "Die übermittelten Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet, sofern keine anderweitige Verarbeitung gesetzlich zulässig oder erforderlich ist.",
       "p4": "Bezieht sich Ihre Anfrage auf die Anbahnung oder Durchführung eines Vertragsverhältnisses, erfolgt die Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO.",
       "p5": "Bei sonstigen Anfragen erfolgt die Verarbeitung auf Grundlage meines berechtigten Interesses an der Bearbeitung und Beantwortung der an mich gerichteten Anfrage gemäß Art. 6 Abs. 1 lit. f DSGVO.",
       "p6": "Die von Ihnen übermittelten Daten werden gelöscht, sobald Ihre Anfrage abschließend bearbeitet wurde und keine gesetzlichen Aufbewahrungspflichten oder sonstigen rechtlichen Gründe für eine weitere Speicherung bestehen.",
-      "p7": "Bitte übermitteln Sie über das Kontaktformular keine sensiblen personenbezogenen Daten, sofern dies für Ihre Anfrage nicht erforderlich ist."
+      "p7": "Bitte beachten Sie, dass die Übertragung von E-Mails im Internet unverschlüsselt erfolgen kann. Übermitteln Sie daher keine sensiblen personenbezogenen Daten per E-Mail, sofern dies für Ihre Anfrage nicht erforderlich ist."
     },
     "s5": {
       "heading": "5. LinkedIn",
@@ -135,14 +151,14 @@
       "p5": "Weitere Informationen zur Verarbeitung personenbezogener Daten durch LinkedIn finden Sie in der Datenschutzerklärung von LinkedIn."
     },
     "s6": {
-      "heading": "6. Cookies, Analyse und Tracking",
-      "p1": "Diese Website verwendet keine Analyse-, Werbe- oder Tracking-Dienste.",
-      "p2": "Soweit durch den Hosting-Anbieter oder die eingesetzte Website-Software technisch notwendige Cookies verwendet werden, dienen diese ausschließlich der Bereitstellung der für den Betrieb der Website erforderlichen Funktionen.",
+      "heading": "6. Cookies, lokale Speicherung, Analyse und Tracking",
+      "p1": "Diese Website verwendet keine Analyse-, Werbe- oder Tracking-Dienste und setzt keine Cookies.",
+      "p2": "Die von Ihnen gewählte Anzeigesprache wird im lokalen Speicher (localStorage) Ihres Browsers abgelegt. Diese Information verbleibt in Ihrem Browser, wird nicht an mich oder an Dritte übermittelt und kann von Ihnen jederzeit über die Einstellungen Ihres Browsers gelöscht werden. Die Speicherung ist unbedingt erforderlich, um den von Ihnen gewünschten Dienst bereitzustellen (§ 25 Abs. 2 Nr. 2 TDDDG).",
       "p3": "Es erfolgt durch mich keine Nutzung personenbezogener Daten für personalisierte Werbung oder websiteübergreifendes Tracking."
     },
     "s7": {
       "heading": "7. SSL-/TLS-Verschlüsselung",
-      "p1": "Diese Website verwendet aus Sicherheitsgründen eine SSL-/TLS-Verschlüsselung. Dies dient insbesondere dem Schutz vertraulicher Inhalte, beispielsweise der Daten, die Sie über das Kontaktformular übermitteln.",
+      "p1": "Diese Website wird über eine verschlüsselte SSL-/TLS-Verbindung (HTTPS) ausgeliefert. Die Verschlüsselung wird durch GitHub Pages bereitgestellt und schützt die Übertragung der von Ihnen abgerufenen Inhalte.",
       "p2": "Eine verschlüsselte Verbindung erkennen Sie in der Regel daran, dass die Adresszeile Ihres Browsers mit „https://“ beginnt."
     },
     "s8": {
