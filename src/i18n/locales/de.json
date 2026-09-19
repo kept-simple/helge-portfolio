@@ -5,6 +5,7 @@
   "nav": {
     "home": "Startseite",
     "technologies": "Technologien",
+    "portfolio": "Portfolio",
     "contact": "Kontakt",
     "impressum": "Impressum"
   },
@@ -62,6 +63,33 @@
       "dataQualityChecks": "Datenqualitätsprüfungen",
       "monitoringAlerting": "Monitoring & Alerting",
       "adHocAnalytics": "Ad-hoc-Analysen"
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Ausgewählte Arbeiten",
+    "title": "Portfolio",
+    "subtitle": "Projekte und Plattformen, die ich gebaut habe",
+    "intro": "Platzhaltertext — bitte durch eigene Worte ersetzen. Eine Auswahl von Projekten, an denen ich gearbeitet habe. Jede Karte verlinkt auf die Website oder eine öffentliche Beschreibung.",
+    "visit": "Website öffnen",
+    "imageAlt": "Screenshot von {{name}}",
+    "note": "Hinweis: Die Projekte unten sind Platzhalter. Sie lassen sich in src/data/projects.js ersetzen; die Screenshots gehören nach public/projects/.",
+    "projects": {
+      "dataPlatform": {
+        "name": "Datenplattform",
+        "description": "Platzhalter — eine orchestrierte Ingestion- und Transformationsplattform, die ein zentrales Data Warehouse speist."
+      },
+      "retailReporting": {
+        "name": "Retail-Reporting",
+        "description": "Platzhalter — tägliche Reporting-Pipelines und Dashboards für Retail-Operations und Finance."
+      },
+      "geoAnalytics": {
+        "name": "Geodaten-Analyse",
+        "description": "Platzhalter — Verarbeitung räumlicher Daten und kartenbasierte Analysen für Standortfragen."
+      },
+      "streamingIngest": {
+        "name": "Streaming-Ingestion",
+        "description": "Platzhalter — Event-Ingestion nahezu in Echtzeit auf einer containerisierten Plattform."
+      }
     }
   },
   "contact": {
