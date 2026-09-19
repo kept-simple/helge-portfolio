@@ -5,6 +5,7 @@
   "nav": {
     "home": "Inicio",
     "technologies": "Tecnologías",
+    "portfolio": "Portafolio",
     "contact": "Contacto",
     "impressum": "Aviso legal"
   },
@@ -62,6 +63,33 @@
       "dataQualityChecks": "Controles de calidad de datos",
       "monitoringAlerting": "Monitorización y alertas",
       "adHocAnalytics": "Análisis ad hoc"
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Trabajos seleccionados",
+    "title": "Portafolio",
+    "subtitle": "Proyectos y plataformas que he construido",
+    "intro": "Texto provisional — sustitúyelo por tus propias palabras. Una selección de proyectos en los que he trabajado. Cada tarjeta enlaza al sitio web o a una descripción pública.",
+    "visit": "Ver el sitio",
+    "imageAlt": "Captura de pantalla de {{name}}",
+    "note": "Nota: los proyectos siguientes son provisionales. Se sustituyen en src/data/projects.js y las capturas van en public/projects/.",
+    "projects": {
+      "dataPlatform": {
+        "name": "Plataforma de datos",
+        "description": "Provisional — una plataforma orquestada de ingesta y transformación que alimenta un almacén de datos central."
+      },
+      "retailReporting": {
+        "name": "Reporting para retail",
+        "description": "Provisional — pipelines de reporting diario y cuadros de mando para operaciones de retail y finanzas."
+      },
+      "geoAnalytics": {
+        "name": "Análisis geoespacial",
+        "description": "Provisional — procesamiento de datos espaciales y análisis sobre mapas para preguntas de localización."
+      },
+      "streamingIngest": {
+        "name": "Ingesta en streaming",
+        "description": "Provisional — ingesta de eventos casi en tiempo real sobre una plataforma en contenedores."
+      }
     }
   },
   "contact": {

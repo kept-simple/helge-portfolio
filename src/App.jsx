@@ -7,6 +7,7 @@ import SiteNavbar from './components/SiteNavbar.jsx'
 import Contact from './pages/Contact.jsx'
 import Home from './pages/Home.jsx'
 import Impressum from './pages/Impressum.jsx'
+import Portfolio from './pages/Portfolio.jsx'
 import Privacy from './pages/Privacy.jsx'
 import Technologies from './pages/Technologies.jsx'
 
@@ -25,6 +26,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/technologies" element={<Technologies />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/privacy" element={<Privacy />} />

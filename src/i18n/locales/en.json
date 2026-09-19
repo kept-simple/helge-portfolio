@@ -5,6 +5,7 @@
   "nav": {
     "home": "Home",
     "technologies": "Technologies",
+    "portfolio": "Portfolio",
     "contact": "Contact",
     "impressum": "Legal Notice"
   },
@@ -62,6 +63,33 @@
       "dataQualityChecks": "Data quality checks",
       "monitoringAlerting": "Monitoring & alerting",
       "adHocAnalytics": "Ad-hoc analytics"
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Selected work",
+    "title": "Portfolio",
+    "subtitle": "Projects and platforms I have built",
+    "intro": "Placeholder copy — replace with your own words. A selection of projects I have worked on. Each card links to the live site or public write-up.",
+    "visit": "Visit site",
+    "imageAlt": "Screenshot of {{name}}",
+    "note": "Note: the projects below are placeholders. Replace them in src/data/projects.js and drop the screenshots into public/projects/.",
+    "projects": {
+      "dataPlatform": {
+        "name": "Data platform",
+        "description": "Placeholder — an orchestrated ingestion and transformation platform feeding a central warehouse."
+      },
+      "retailReporting": {
+        "name": "Retail reporting",
+        "description": "Placeholder — daily reporting pipelines and dashboards for retail operations and finance."
+      },
+      "geoAnalytics": {
+        "name": "Geospatial analytics",
+        "description": "Placeholder — spatial data processing and map-based analysis for location questions."
+      },
+      "streamingIngest": {
+        "name": "Streaming ingestion",
+        "description": "Placeholder — near-real-time event ingestion running on a containerised platform."
+      }
     }
   },
   "contact": {
